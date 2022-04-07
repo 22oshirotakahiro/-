@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="ja">
+
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="style\css\recipe.css">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>質問・感想フォーム</title>
+</head>
+
+<body>
+    <div class="center">
+        <h1>質問・感想フォーム</h1>
+        <br>
+        <div class="form">
+            <form action="result.html">
+                <div>
+                    <h3>氏名</h3>
+                    <label>
+                        <input type="text">
+                    </label>
+                </div>
+                <div>
+                    <h3>性別</h3>
+                    <label class="separate">
+                        <input type="radio" name="sei" checked>男
+                    </label>
+                    <label class="separate">
+                        <input type="radio" name="sei">女
+                    </label>
+                </div>
+                <div>
+                    <h3>年齢</h3>
+                    <label>
+                        <select size="1">
+                            <option value="">10代</option>
+                            <option value="">20代</option>
+                            <option value="">30代</option>
+                            <option value="">40代</option>
+                            <option value="">50代</option>
+                            <option value="">60代</option>
+                            <option value="">70代</option>
+                            <option value="">80代</option>
+                            <option value="">90歳以上</option>
+                        </select>
+                    </label>
+                </div>
+                <div>
+                    <h3>今後見てみたいレシピ</h3>
+                    <label class="separate">
+                        <input type="checkbox">和食
+                    </label>
+                    <label class="separate">
+                        <input type="checkbox">中華
+                    </label>
+                    <label class="separate">
+                        <input type="checkbox">洋食
+                    </label>
+                    <label class="separate">
+                        <input type="checkbox">イタリアン
+                    </label>
+                    <label class="separate">
+                        <input type="checkbox">スイーツ
+                    </label>
+                    <label class="separate">
+                        <input type="checkbox">その他
+                    </label>
+                </div>
+                <div>
+                    <h3>自由コメント欄</h3>
+                    <label>
+                        <textarea cols="50" rows="10" placeholder="自由に意見をお書きください"></textarea>
+                    </label>
+                </div>
+                <div>
+                    <button type="submit">送信</button>
+                    <button type="reset">取り消し</button>
+                </div>
+            </form>
+        </div>
+    </div>
+</body>
+
+</html>

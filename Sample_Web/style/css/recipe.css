@@ -1,0 +1,50 @@
+body{
+  /* background-image: url(../../images/web_html_attr/bg_Argyle.jpg); */
+  background-image: url(C:\\Users\\axiz\\Documents\\Sample_Web\\images\\web_html_attr\\bg_Argyle.jpg);
+  background-repeat: repeat;
+}
+
+.center {
+  text-align:center;
+}
+
+.red {
+  color: red;
+}
+
+table {
+  border-color: red;
+  background-color: #f5deb3;
+}
+
+.curry {
+  border:4px double red;
+  width: 378px;
+  height: 252px;
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+}
+
+.tips {
+  display:flex;
+}
+
+.form {
+  border:2px solid plum;
+  border-radius: 10px;
+  width: 600px;
+  height: 600px;
+  margin-left:auto;
+  margin-right:auto;
+  background-color: white;
+}
+
+.separate {
+  border-radius: 5px;
+  border:1px solid black;
+  border-collapse: separate;
+  margin: 0px 5px 0px;
+}
